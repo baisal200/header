@@ -1,0 +1,181 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Krona One', sans-serif;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Krona One', sans-serif;
+    font-family: 'Roboto,'sans-serif ; 
+    font-family: 'Ubuntu,'sans-serif;  
+
+}
+.container{
+    max-width: 1290px;
+
+}
+.hero{
+    width: 1920px;
+    height: 1080px;
+    flex-shrink: 0;
+    background: url(../images/pavel-fertikh-R1Wy2m3oFqQ-unsplash\ 1.jpg);
+}
+.header{
+  
+}
+.header__logo{
+    color: #151515;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+     text-decoration: none;
+     margin-left:850px ;
+    
+     
+}
+.header__burger{
+    margin-left: 1700px;
+}
+.hero__content{
+    width: 1532px;
+}
+.hero__content-title{
+    color: #FFF;
+    text-align: center;
+    font-size: 96px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+    margin-top: 240px;
+    margin-left: 400px;
+}
+.hero__content-btn{
+    color: #FFF;
+    text-align: center;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+    background: none;
+    border: none;
+    border: 3px solid #FFF;
+    background: rgba(255, 255, 255, 0.00);
+    width: 236px;
+    height: 44px;
+    flex-shrink: 0; 
+    margin-left: 800px;
+}
+
+.adout{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.adout-info{
+    width: 1150px;
+    height: 1081px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 57px;
+}
+
+.adout__info-title{
+    color: #151515;
+    font-size: 48px;
+    font-family: Krone One;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.adout__info-text{
+    color: #151515;
+    font-size: 18px;
+    font-weight: 400;
+    max-width: 680px;
+}
+
+.adout__images-wrap img{
+    width: 1150px;
+    height: 1081px;
+    
+}
+.gallery{
+    background: #151515;
+    width: 1920px;
+    height: 2084px;
+    flex-shrink: 0;
+}
+.gallery-title{
+    color: #FFF;
+}
+.gallery__images img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.gallery__images{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+}
+.row-long{
+    grid-row: 2/4;
+}
+.big{
+    grid-row: 2/4;
+    grid-column: 2/4;
+}
+.contacts{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #FFF;
+}
+.contacts__content-title{
+    margin-top: 149px;
+    color: #151515;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+
+}
+.contacts__content__form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+    justify-content: center;
+    gap: 15px;
+
+}
+.contacts__content__form-input{
+    color: #000;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+    border: 1px solid #DCF7FF;
+    background: #FFF;
+}
+.contacts-btn{
+    color: #151515;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+    background: none;
+    
+
+}
